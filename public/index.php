@@ -1,10 +1,7 @@
 <?php
-echo "<h1>InNOut</h1>";
-
 require_once(dirname(__FILE__, 2) . '/src/config/config.php');
-require_once(dirname(__FILE__, 2) . '/src/models/User.php');
+require_once(dirname(__FILE__, 2) . '/src/views/login.php');
 
-// $user = new User(['name' => 'Chaves', 'email' => 'chaves@televisa.com.br']);
-print_r(User::get(['id' => 1], 'id, name, email'));
+// $u = User::get(['id' => 1], 'id, name, email');
 
-echo "<br> Fim";
+// var_dump($u);
