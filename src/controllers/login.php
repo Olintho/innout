@@ -3,6 +3,7 @@
 // Login Controller
 
 loadModel('Login');
+$exception = null;
 
 if (count($_POST) > 0) 
 {
